@@ -198,6 +198,7 @@ dependencies = [
  "axum-extra",
  "http",
  "openapi",
+ "serde_json",
  "serde_yaml",
  "tokio",
 ]
