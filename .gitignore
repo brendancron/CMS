@@ -15,7 +15,7 @@
 Thumbs.db
 
 # Generated code (uncomment if you don't want to commit generated code)
-# backend/generated/
+backend/generated/
 
 # Build artifacts
 *.exe

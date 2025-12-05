@@ -1,0 +1,13 @@
+[package]
+name = "cms"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+openapi = { path = "generated" }
+async-trait = "0.1"
+axum = { version = "0.8", features = ["multipart"] }
+axum-extra = { version = "0.10", features = ["cookie", "query"] }
+http = "1"
+tokio = { version = "1", features = ["full"] }
+serde_yaml = "0.9"
