@@ -1,1 +1,27 @@
-ckend/target/
+# Rust
+**/target/
+**/*.rs.bk
+**/*.pdb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated code (uncomment if you don't want to commit generated code)
+# backend/generated/
+
+# Build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Debug files
+*.dSYM/
