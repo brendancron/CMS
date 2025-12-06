@@ -2,7 +2,7 @@ OPENAPI_SPEC := openapi/api.yaml
 GEN_DIR := backend/generated
 CLIENT_DIR := client
 
-.PHONY: generate generate-client build run clean
+.PHONY: generate generate-client build run clean start-frontend
 
 generate:
 	@echo "Generating Rust server stubs from OpenAPI..."
@@ -29,3 +29,6 @@ clean:
 	cd backend && cargo clean
 	rm -rf $(GEN_DIR)
 	rm -rf $(CLIENT_DIR)
+
+start-frontend:
+	cd frontend && npm start
